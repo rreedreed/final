@@ -1,0 +1,24 @@
+/* this is page-specific css that adds unique 
+   styling to the different sets of pages */
+   
+/* story page specific */
+.text-2 {
+	background: rgba(255, 238, 252, 0.6);
+}
+
+/* adventure pages specific */
+.btn-small {
+	font-size: 110%;
+}
+
+/* concept pages specific
+   'iframe' is the embedded playlist */
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 380px;
+	border-radius: 10px;
+
+}

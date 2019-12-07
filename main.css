@@ -1,0 +1,89 @@
+/* Main css styling for all pages. Percentages
+   are favored in place of exact pixel amounts to
+   ensure responsiveness as window size changes. */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* this creates the linear gradient background
+   from right to left with four color stops */
+body {
+	background-image: linear-gradient(to right, #e4bfde, #b2f0ed, 
+#e3f9f2, #77d7c9);
+}
+
+/* all elements within the page body are
+   within this class */
+.container {
+	margin: auto;
+	width: 80%;
+
+}
+
+/* font styling for headers and paragraphs */
+h1, h3 {
+	font-family: 'Marck Script', cursive;
+	color: #e6b7c6;
+	text-align: center;
+}
+
+h1 {
+	font-size: 400%;
+}
+
+h3 {
+	font-size: 300%;
+}
+
+p {
+	font-family: 'Special Elite', cursive;
+	font-size: 160%;
+	color: #69d5cc;
+	line-height: 140%;
+	text-align: justify;
+}
+
+/* semi-transparent text box to offset 
+   text from the background for readability */
+.text {
+	border-radius: 10px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+	background: rgba(227, 249, 242, 0.6);
+}
+
+/* button menu class and buttons */
+.options {
+	display: flex;
+	justify-content: space-between;
+}
+
+button, .btn {
+	display: inline-block;
+	color: #69d5cc;
+	background-color: #e3f9f2;
+	border: 2px solid #69d5cc;
+	border-radius: 10px;
+	padding: 2%;
+	text-align: center;
+	font-size: 160%;
+	font-family: 'Special Elite', cursive;
+	text-decoration: none;
+}
+
+button:hover, button:active, a:hover, a:active {
+	color: #e6b7c6;
+}
+
+
+
+
+
+

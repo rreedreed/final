@@ -1,0 +1,37 @@
+/* Element sizing for screens around 
+   the size of smartphones. */
+@media screen and (max-width: 580px) {
+	h1 {
+		font-size: 300%;
+	}
+	
+	h3 {
+		font-size: 200%;
+	}
+	
+	p {
+		font-size: 120%;
+	}
+	
+	.options, .reset {
+		display: block;
+		margin: auto;
+		width: 60%;
+	}
+	
+	.btn {
+		display: block;
+		margin: auto;
+		margin-bottom: 6%;
+		width: 100%;
+		padding: 5%;
+		font-size: 120%;		
+	}
+	
+	.reset {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	
+}
